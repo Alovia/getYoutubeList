@@ -115,7 +115,7 @@ def create_music_list(directory):
             if len(t_root) > 0:
                 music_list.append("#"+t_root[-1])
         for f in files:
-            music_list.append("http://youtu.be/"+f[-15:])
+            music_list.append("http://youtu.be/"+f[-15:-4])
     return music_list
 
 
